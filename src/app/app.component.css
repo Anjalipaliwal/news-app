@@ -1,0 +1,107 @@
+header  {
+    color: #111E6C;
+    margin-top: 0;
+    
+}
+header .front {
+   font-family: 'Raleway', sans-serif; color:#003152;
+    font-size: 27px;
+    font-weight: 700;
+    font-weight:bold;
+}
+header .back {
+    font-family: 'Raleway', sans-serif;
+    color: #FDA50F;
+    font-size: 27px;
+    font-weight:bold;
+}
+.logo {
+    margin-top: 30px;
+}
+nav {
+    margin-top: 20px;
+}
+.span {
+    margin-left: 0px;
+}
+
+.front,.back{
+    display: inline;
+    margin-left:0px;
+    text-align: left
+}
+.intro-dashboard {
+    background-color: rgb(237, 239, 240);
+    padding: 100px;
+}
+.intro-dashboard  .heading{
+   font-family: 'Nunito Sans', sans-serif;
+   color:#003152;
+   font-weight: 800;
+   font-size: 45px;
+}
+.intro-dashboard  p {
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #555;
+    text-align: left;
+    padding: 10px
+}
+.intro-dashboard img {
+    float: right;
+    max-width: 300px;
+}
+.list {
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgb(245, 245, 245);
+}
+.list ul {
+    margin:0;
+    padding:10px;
+    overflow:hidden;
+    display: inline-block;
+    
+}
+.list li {
+    background: #444;
+}
+
+.list span a{
+     border: 1px solid  #0080FF;
+     padding : 10px; border-radius: 4px;
+
+}
+.list span a:hover {
+    border: 1px solid #0080FF;
+    background: #0080FF;
+    color:white;
+    text-decoration: none
+
+}
+.title-area h2 {
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FDA50F; 
+    text-align: center;
+    padding: 10px
+}
+.title-area p {
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    padding: 10px
+}
+.filter-area {
+    padding: 40px
+}
+
+
+html,body{
+    margin:0;
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+
+
+<section class="news-card">
+<div class="container">
+     <div class="row">
+          <div class="col-sm-12">
+               <h2>
+                    News Cards
+               </h2>
+               <ul *ngFor="let news of mArticles">               
+               <div class="card mx-auto"  >
+                    <img class="card-img-top" src="{{news.urlToImage}}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">{{news.title}}</h5>
+                      <p class="card-text">{{news.description}}</p>
+                      <a href="{{news.url}}" class="btn btn-primary">Read more</a>
+                    </div>             
+                  </div>              
+          </ul>
+
+          </div>
+     </div>
+</div>
+</section>
+
+

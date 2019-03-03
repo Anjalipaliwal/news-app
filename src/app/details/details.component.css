@@ -1,0 +1,18 @@
+.card {
+    padding: 10px;
+    margin:20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    text-align : center;
+}
+.news-card {
+    padding : 90px;
+}
+h2{
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #0080FF; 
+    text-align: center;
+    padding: 10px
+}
